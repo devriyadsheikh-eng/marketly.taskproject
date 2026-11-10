@@ -1,0 +1,27 @@
+# Local environment configuration and secrets. Keep only sanitized examples.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Generated dependencies and build output
+**/vendor/
+**/node_modules/
+**/dist/
+
+# Local database dumps, logs, and runtime data
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.db
+*.log
+backend/storage/logs/*
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/storage/app/public/*
+backend/bootstrap/cache/*.php
+backend/.phpunit.result.cache
