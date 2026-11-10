@@ -13,6 +13,7 @@
 
 # Local database dumps, logs, and runtime data
 *.sql
+!/taskproject.sql
 *.sql.gz
 *.sqlite
 *.sqlite3
