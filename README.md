@@ -1,5 +1,7 @@
 # Small E-commerce Management System
 
+![Application home page](home.png)
+
 A Laravel + React application for managing independent shops against a shared global product catalog. Administrators manage shop-owner accounts, shops, and global products. Shop owners manage their assigned shops' listings, including shop-specific prices and optional content/image overrides. Customers browse active shops and only the active products listed by the selected shop.
 
 ## Technology
